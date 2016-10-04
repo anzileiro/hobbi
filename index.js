@@ -1,17 +1,18 @@
-var express = require('express');
-var app = express();
+'use strict'
 
-app.set('port', (process.env.PORT || 5000));
+const   Express       = require('express')
+,       Server        = require('./configs/server')
+,       App           = Express()
 
-app.use(express.static(__dirname + '/public'));
+App.use(Express.static(__dirname + '/public'))
 
-app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
+App.set('views', __dirname + '/views')
+App.set('view engine', 'ejs')
 
-app.get('/', function(request, response) {
-  response.render('pages/index');
-});
+App.get('/', (request, response) => {
+  response.render('pages/index')
+})
 
-app.listen(app.get('port'), function() {
-  console.log('Node app is running on port', app.get('port'));
-});
+App.listen(Server.port, () => {
+  console.log(`Server running at localhost on port: ${ Server.port } in ${ Server.mode } mode`)
+})
