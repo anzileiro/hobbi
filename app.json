@@ -1,0 +1,8 @@
+{
+  "name": "hobbi",
+  "description": "a new way to spot a job",
+  "repository": "https://github.com/anzileiro/hobbi/",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
