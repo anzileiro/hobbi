@@ -1,0 +1,19 @@
+{
+  "name": "hobbi",
+  "version": "0.0.1",
+  "description": "hobbi a new way to spot a job",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anzileiro/hobbi.git"
+  },
+  "author": "Anderson L. Ribeiro Anzileiro <anderson.anzileiro@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anzileiro/hobbi/issues"
+  },
+  "homepage": "https://github.com/anzileiro/hobbi#readme"
+}
